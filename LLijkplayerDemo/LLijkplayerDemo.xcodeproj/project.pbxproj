@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32B8F2B31CE2D26E00F80FFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B8F2B21CE2D26E00F80FFD /* main.m */; };
+		32B8F2B61CE2D26E00F80FFD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B8F2B51CE2D26E00F80FFD /* AppDelegate.m */; };
+		32B8F2BE1CE2D26E00F80FFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32B8F2BD1CE2D26E00F80FFD /* Assets.xcassets */; };
+		32B8F2C11CE2D26E00F80FFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32B8F2BF1CE2D26E00F80FFD /* LaunchScreen.storyboard */; };
+		32B8F2CA1CE2D30000F80FFD /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32B8F2C91CE2D30000F80FFD /* IJKMediaFramework.framework */; };
+		32B8F2CC1CE2D30C00F80FFD /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32B8F2CB1CE2D30C00F80FFD /* VideoToolbox.framework */; };
+		32B8F2CE1CE2D31600F80FFD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32B8F2CD1CE2D31600F80FFD /* UIKit.framework */; };
+		32B8F2D01CE2D31F00F80FFD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32B8F2CF1CE2D31F00F80FFD /* QuartzCore.framework */; };
+		32B8F2D21CE2D32800F80FFD /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32B8F2D11CE2D32800F80FFD /* OpenGLES.framework */; };
+		32B8F2D41CE2D33000F80FFD /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32B8F2D31CE2D33000F80FFD /* MobileCoreServices.framework */; };
+		32B8F2D61CE2D33C00F80FFD /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32B8F2D51CE2D33C00F80FFD /* MediaPlayer.framework */; };
+		32B8F2D81CE2D34800F80FFD /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32B8F2D71CE2D34800F80FFD /* CoreVideo.framework */; };
+		32B8F2DA1CE2D35500F80FFD /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32B8F2D91CE2D35500F80FFD /* CoreMedia.framework */; };
+		32B8F2DC1CE2D35D00F80FFD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32B8F2DB1CE2D35D00F80FFD /* CoreGraphics.framework */; };
+		32B8F2DE1CE2D36500F80FFD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32B8F2DD1CE2D36500F80FFD /* AVFoundation.framework */; };
+		32B8F2E01CE2D36C00F80FFD /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32B8F2DF1CE2D36C00F80FFD /* AudioToolbox.framework */; };
+		32B8F2E21CE2D37500F80FFD /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 32B8F2E11CE2D37500F80FFD /* libbz2.tbd */; };
+		32B8F2E41CE2D37C00F80FFD /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 32B8F2E31CE2D37C00F80FFD /* libz.tbd */; };
+		32B8F2E71CE2D40100F80FFD /* LLIJKPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B8F2E61CE2D40100F80FFD /* LLIJKPViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		32B8F2AE1CE2D26E00F80FFD /* LLijkplayerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LLijkplayerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32B8F2B21CE2D26E00F80FFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32B8F2B41CE2D26E00F80FFD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		32B8F2B51CE2D26E00F80FFD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		32B8F2BD1CE2D26E00F80FFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32B8F2C01CE2D26E00F80FFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32B8F2C21CE2D26E00F80FFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32B8F2C91CE2D30000F80FFD /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		32B8F2CB1CE2D30C00F80FFD /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		32B8F2CD1CE2D31600F80FFD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		32B8F2CF1CE2D31F00F80FFD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		32B8F2D11CE2D32800F80FFD /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		32B8F2D31CE2D33000F80FFD /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		32B8F2D51CE2D33C00F80FFD /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		32B8F2D71CE2D34800F80FFD /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		32B8F2D91CE2D35500F80FFD /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		32B8F2DB1CE2D35D00F80FFD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		32B8F2DD1CE2D36500F80FFD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		32B8F2DF1CE2D36C00F80FFD /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		32B8F2E11CE2D37500F80FFD /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		32B8F2E31CE2D37C00F80FFD /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		32B8F2E51CE2D40100F80FFD /* LLIJKPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLIJKPViewController.h; sourceTree = "<group>"; };
+		32B8F2E61CE2D40100F80FFD /* LLIJKPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLIJKPViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32B8F2AB1CE2D26E00F80FFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32B8F2E41CE2D37C00F80FFD /* libz.tbd in Frameworks */,
+				32B8F2E21CE2D37500F80FFD /* libbz2.tbd in Frameworks */,
+				32B8F2E01CE2D36C00F80FFD /* AudioToolbox.framework in Frameworks */,
+				32B8F2DE1CE2D36500F80FFD /* AVFoundation.framework in Frameworks */,
+				32B8F2DC1CE2D35D00F80FFD /* CoreGraphics.framework in Frameworks */,
+				32B8F2DA1CE2D35500F80FFD /* CoreMedia.framework in Frameworks */,
+				32B8F2D81CE2D34800F80FFD /* CoreVideo.framework in Frameworks */,
+				32B8F2D61CE2D33C00F80FFD /* MediaPlayer.framework in Frameworks */,
+				32B8F2D41CE2D33000F80FFD /* MobileCoreServices.framework in Frameworks */,
+				32B8F2D21CE2D32800F80FFD /* OpenGLES.framework in Frameworks */,
+				32B8F2D01CE2D31F00F80FFD /* QuartzCore.framework in Frameworks */,
+				32B8F2CE1CE2D31600F80FFD /* UIKit.framework in Frameworks */,
+				32B8F2CC1CE2D30C00F80FFD /* VideoToolbox.framework in Frameworks */,
+				32B8F2CA1CE2D30000F80FFD /* IJKMediaFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32B8F2A51CE2D26E00F80FFD = {
+			isa = PBXGroup;
+			children = (
+				32B8F2B01CE2D26E00F80FFD /* LLijkplayerDemo */,
+				32B8F2AF1CE2D26E00F80FFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32B8F2AF1CE2D26E00F80FFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32B8F2AE1CE2D26E00F80FFD /* LLijkplayerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32B8F2B01CE2D26E00F80FFD /* LLijkplayerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				32B8F2B41CE2D26E00F80FFD /* AppDelegate.h */,
+				32B8F2B51CE2D26E00F80FFD /* AppDelegate.m */,
+				32B8F2E51CE2D40100F80FFD /* LLIJKPViewController.h */,
+				32B8F2E61CE2D40100F80FFD /* LLIJKPViewController.m */,
+				32B8F2BD1CE2D26E00F80FFD /* Assets.xcassets */,
+				32B8F2BF1CE2D26E00F80FFD /* LaunchScreen.storyboard */,
+				32B8F2C21CE2D26E00F80FFD /* Info.plist */,
+				32B8F2B11CE2D26E00F80FFD /* Supporting Files */,
+			);
+			path = LLijkplayerDemo;
+			sourceTree = "<group>";
+		};
+		32B8F2B11CE2D26E00F80FFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32B8F2C81CE2D2DF00F80FFD /* framework */,
+				32B8F2B21CE2D26E00F80FFD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32B8F2C81CE2D2DF00F80FFD /* framework */ = {
+			isa = PBXGroup;
+			children = (
+				32B8F2E31CE2D37C00F80FFD /* libz.tbd */,
+				32B8F2E11CE2D37500F80FFD /* libbz2.tbd */,
+				32B8F2DF1CE2D36C00F80FFD /* AudioToolbox.framework */,
+				32B8F2DD1CE2D36500F80FFD /* AVFoundation.framework */,
+				32B8F2DB1CE2D35D00F80FFD /* CoreGraphics.framework */,
+				32B8F2D91CE2D35500F80FFD /* CoreMedia.framework */,
+				32B8F2D71CE2D34800F80FFD /* CoreVideo.framework */,
+				32B8F2D51CE2D33C00F80FFD /* MediaPlayer.framework */,
+				32B8F2D31CE2D33000F80FFD /* MobileCoreServices.framework */,
+				32B8F2D11CE2D32800F80FFD /* OpenGLES.framework */,
+				32B8F2CF1CE2D31F00F80FFD /* QuartzCore.framework */,
+				32B8F2CD1CE2D31600F80FFD /* UIKit.framework */,
+				32B8F2CB1CE2D30C00F80FFD /* VideoToolbox.framework */,
+				32B8F2C91CE2D30000F80FFD /* IJKMediaFramework.framework */,
+			);
+			name = framework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32B8F2AD1CE2D26E00F80FFD /* LLijkplayerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32B8F2C51CE2D26E00F80FFD /* Build configuration list for PBXNativeTarget "LLijkplayerDemo" */;
+			buildPhases = (
+				32B8F2AA1CE2D26E00F80FFD /* Sources */,
+				32B8F2AB1CE2D26E00F80FFD /* Frameworks */,
+				32B8F2AC1CE2D26E00F80FFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LLijkplayerDemo;
+			productName = LLijkplayerDemo;
+			productReference = 32B8F2AE1CE2D26E00F80FFD /* LLijkplayerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32B8F2A61CE2D26E00F80FFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Candice;
+				TargetAttributes = {
+					32B8F2AD1CE2D26E00F80FFD = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = PLA99VF6Z3;
+					};
+				};
+			};
+			buildConfigurationList = 32B8F2A91CE2D26E00F80FFD /* Build configuration list for PBXProject "LLijkplayerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32B8F2A51CE2D26E00F80FFD;
+			productRefGroup = 32B8F2AF1CE2D26E00F80FFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32B8F2AD1CE2D26E00F80FFD /* LLijkplayerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32B8F2AC1CE2D26E00F80FFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32B8F2C11CE2D26E00F80FFD /* LaunchScreen.storyboard in Resources */,
+				32B8F2BE1CE2D26E00F80FFD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32B8F2AA1CE2D26E00F80FFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32B8F2B61CE2D26E00F80FFD /* AppDelegate.m in Sources */,
+				32B8F2E71CE2D40100F80FFD /* LLIJKPViewController.m in Sources */,
+				32B8F2B31CE2D26E00F80FFD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		32B8F2BF1CE2D26E00F80FFD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32B8F2C01CE2D26E00F80FFD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32B8F2C31CE2D26E00F80FFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		32B8F2C41CE2D26E00F80FFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32B8F2C61CE2D26E00F80FFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LLijkplayerDemo",
+				);
+				INFOPLIST_FILE = LLijkplayerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chnfuture.LLijkplayerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		32B8F2C71CE2D26E00F80FFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LLijkplayerDemo",
+				);
+				INFOPLIST_FILE = LLijkplayerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chnfuture.LLijkplayerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32B8F2A91CE2D26E00F80FFD /* Build configuration list for PBXProject "LLijkplayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32B8F2C31CE2D26E00F80FFD /* Debug */,
+				32B8F2C41CE2D26E00F80FFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32B8F2C51CE2D26E00F80FFD /* Build configuration list for PBXNativeTarget "LLijkplayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32B8F2C61CE2D26E00F80FFD /* Debug */,
+				32B8F2C71CE2D26E00F80FFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32B8F2A61CE2D26E00F80FFD /* Project object */;
+}
